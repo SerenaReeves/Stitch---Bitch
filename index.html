@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" src="styles.css"
   </head>
   <body>
 
@@ -16,12 +17,13 @@
       <div class="navbar-nav ml-auto">
       </div>
     <div class="dropdown">
-      <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <button href="https://serenareeves.github.io/Quiltshows/" class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Calendar
+
       </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Upcoming Quilt Shows</a>
-        <a class="dropdown-item" href="#">Upcoming Meetings</a>
+      <div class="dropdown-menu mr-md-3" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="quiltshows/index.html">Upcoming Quiltshows</a>
+        <a class="dropdown-item" href="calendar/index.html">Upcoming Meetings</a>
       </div>
     </div>
     <div class="dropdown">
@@ -29,9 +31,9 @@
       Projects
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Current Projects</a>
-        <a class="dropdown-item" href="#">Upcoming Projects</a>
-        <a class="dropdown-item" href="#">Year Round Projects</a>
+        <a class="dropdown-item" href="projects/index.html">Completed Projects</a>
+        <a class="dropdown-item" href="https://caseforsmiles.org/get-involved/"
+        title="caseforsmiles">Year Round Projects</a>
       </div>
     </div>
     <div class="dropdown">
@@ -39,87 +41,94 @@
       Learn How
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Patterns</a>
-        <a class="dropdown-item" href="#">Fabric Cutting Techniques</a>
-        <a class="dropdown-item" href="#">Shortcuts</a>
+        <a class="dropdown-item" href="learn-how/index.html">Learning the Basics</a>
+
       </div>
     </div>
-    <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  More Information
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Meeting Locations</a>
-        <a class="dropdown-item" href="#">Contact Us</a>
-        <a class="dropdown-item" href="#">What to Bring</a>
       </div>
     </div>
   </nav>
 </div>
 
 <!-- About Us -->
-
-<div class="container bg-light">
-  <img src="quilt-crew.jpg" class="img-fluid" alt="Responsive image">
-    <p class="text-center"> We are a few friends that get together to Stitch & Bitch. We help each
+<center>
+  <div class="container bg-light">
+    <img src="quilt-crew.jpg" class="img-fluid" alt="Responsive image">
+      <p class="text-dark"> We are a few friends that get together to Stitch & Bitch. We help each
         other with projects and rant about things in our lives. We will end up
         laughing so hard we are crying but that's just the people we are
         (with or without a few glasses of wine).</p>
 
+
+    <br>
+
+    <container class="bg-light">
+        <img class="img-fluid" src="quilt-1.jpeg" >
+            <p class="text-dark">We get together bi-weekly and sometimes we are productive, sometimes we
+                are not. It's all about the community of friends getting together during our busy lives.
+                Click on Calendar to see when and where we meet!
+                <br>
+                <br>
+                <a class="d-inline p-2 bg-info text-dark" href="calendar/index.html">Calendar</a>
+               </p>
+    </container>
+
+    <br>
+    <br>
+
+    <container class="bg-light">
+      <img class="img-fluid" src="quilt-2.jpeg">
+        <p class="text-dark">The projects we mainly work on are wedding quilts, baby quilts,
+            quilts for friends and family. If there is a special occasion WE JUST HAVE
+            TO MAKE A QUILT!!! Check out our projects tab to see current, upcoming, and year-round projects. Click on projects to see what we have completed!
+              <br>
+              <br>
+              <a class="d-inline p-2 bg-info text-dark" href="projects/index.html">Completed Projects</a>
+        </p>
+
+        <br>
+        <br>
+
+    </container>
+
+    <br>
+    <br>
+
+    <container class="bg-light">
+      <img class="img-top" src="learn-how.jpeg">
+        <p class="text-dark">Want to learn how to quilt? You are looking in the
+          right place! We are all quilting veterans and would love to teach this
+          beautiful skill to others. We will help you with basics and even more
+          challenging techniques. Click on learn how for a few basic techniques to learn at home!
+          <br>
+          <br>
+            <a class="d-inline p-2 bg-info text-dark" href="learn-how/index.html">Learn How</a>
+
+        </p>
+    </container>
+    <br>
+    <br>
+
+    <container class="bg-light">
+        <img class="img-fluid" src="quiltshow.jpg">
+          <p class="text-dark">There are quilt shows all
+            over California! Click on the link to find a list of 2020
+            quilt shows.
+            <br>
+            <br>
+            <a class="d-inline p-2 bg-info text-dark" href="quiltshows/index.html">Quiltshows</a>
+          </p>
     <br>
 
 
+    <form>
+              <input type="email" class="form-control" placeholder="Your e-mail"><button class="btn-email bg-info">Subscribe</button>
+              <br>
+            </form>
 
-\\
-
-
-
-
-                    <div class="container bg-light">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div style="width: 18rem;">
-                                    <img class="card-img-top" src="quilt-1.jpeg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text text-secondary">We get together bi-weekly and sometimes we are productive, sometimes we
-                                          are not. It's all about the community of friends getting together during our busy lives.</p>
-                                        <a href="#" class="btn btn-danger">Calendar</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div style="width: 18rem;">
-                                    <img class="card-img-top" src="quilt-2.jpeg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text text-secondary">The projects we mainly work on are wedding quilts, baby quilts,
-                                          quilts for friends and family. If there is a special occasion WE JUST HAVE
-                                          TO MAKE A QUILT!!! Check out our projects tab to see current, upcoming, and
-                                          year-round projects</p>
-                                        <a href="#" class="btn btn-warning">Projects</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div style="width: 18rem;">
-                                    <img class="card-img-top" src="learn-how.jpeg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text text-secondary">Want to learn how to quilt? You are looking in the
-                                          right place! We are all quilting veterans and would love to teach this
-                                          beautiful skill to others. We will help you with basics and even more
-                                          challenging techniques.</p>
-                                        <a href="#" class="btn btn-success">Learn How</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  <br>
-
-
-
-
-
-
+<br>
+<br>
+</center>
 
 
 
